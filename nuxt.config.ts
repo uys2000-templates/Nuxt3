@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   imports: {
     dirs: ["stores"],
   },
+  plugins: ["@/plugins/DebugLogger"],
   css: ["~/assets/style/tailwind.css"],
   postcss: {
     plugins: {
